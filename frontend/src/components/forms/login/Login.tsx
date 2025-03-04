@@ -21,12 +21,12 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row">
       <div
-        className="w-full md:w-1/2 h-48 md:h-auto bg-cover bg-center"
+        className="w-full md:w-1/2 h-72 md:h-auto bg-cover bg-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       />
-      <div className="w-full md:w-1/2 flex items-center justify-center p-4 md:p-8 border-l border-gray-300">
+      <div className="w-full md:w-1/2 flex items-center justify-center p-4 md:p-8 border-l border-white">
         <div className="max-w-md w-full space-y-8 border border-gray-300 p-4 rounded-lg">
           <p className="font-bold text-2xl md:text-4xl mt-2 text-center">
             Login to your account!
