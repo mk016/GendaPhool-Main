@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import { Outlet } from 'react-router-dom'
-import BottomNav from './BottomNav'
+
 
 function Layout() {
   return (
@@ -11,7 +11,7 @@ function Layout() {
       <main className="flex-grow container mx-auto px-4 py-8">
         <Outlet />
       </main>
-      <BottomNav />
+
     </div>
   )
 }
